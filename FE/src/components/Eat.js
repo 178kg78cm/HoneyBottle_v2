@@ -18,7 +18,7 @@ function Eat() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios.get('http://localhost:4000/Eat', {
+      const response = await axios.get('http://54.252.164.35:4000/Eat', {
         params: {
           _limit: TOTAL_ITEMS, // 총 항목 개수를 지정합니다.
         },
